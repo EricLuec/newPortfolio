@@ -19,7 +19,7 @@ export const portfolioConfig = {
     2000,
     "I am a Fullstack Developer",
     2000,
-    "Currently learning about cybersecurity",
+    "Cybersecurity Expert",
     2000
   ]
 

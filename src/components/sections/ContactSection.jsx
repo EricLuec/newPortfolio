@@ -5,7 +5,7 @@ import { Github } from "../icons/Github";
 
 export const ContactSection = ({ 
   linkedinUrl = "https://linkedin.com/in/yourprofile",
-  githubUrl = "https://github.com/yourusername"
+  githubUrl = "https://github.com/ericluec"
 }) => (
   <section className="py-20 px-6">
     <div className="max-w-4xl mx-auto text-center">
