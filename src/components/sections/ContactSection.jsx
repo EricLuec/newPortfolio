@@ -2,6 +2,7 @@
 import {SocialLink} from "../ui/SocialLink";
 import { Linkedin } from "../icons/Linkedin";
 import { Github } from "../icons/Github";
+
 export const ContactSection = ({ 
   linkedinUrl = "https://linkedin.com/in/yourprofile",
   githubUrl = "https://github.com/yourusername"

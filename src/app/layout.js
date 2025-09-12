@@ -1,6 +1,7 @@
+'use client'
 import './globals.css'; 
 
-export const metadata = {
+const metadata = {
   title: 'EricLuec Portfolio',
   description: 'NextJS-Portfolio',
 };

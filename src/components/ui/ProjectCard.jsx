@@ -1,3 +1,5 @@
+import { ExternalLink } from "../icons/ExternalLink";
+
 export const ProjectCard = ({ project, index, isActive, onMouseEnter, onMouseLeave }) => (
   <div
     className="group relative p-6 rounded-2xl bg-gradient-to-br from-gray-800/30 to-gray-900/30 backdrop-blur-sm border border-gray-700/30 hover:border-gray-500/50 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl cursor-pointer"

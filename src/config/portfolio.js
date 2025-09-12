@@ -1,15 +1,12 @@
 export const portfolioConfig = {
-  // Persönliche Daten
   name: "Dein Name",
   title: "Software Developer",
   subtitle: "Full Stack Engineer • Innovation Enthusiast",
   year: new Date().getFullYear(),
   
-  // Statistiken
-  yearsExperience: 5,  // Deine Jahre Erfahrung
-  projectsCompleted: 50,  // Anzahl Projekte
+  yearsExperience: 5, 
+  projectsCompleted: 50, 
   
-  // Social Media Links
   linkedinUrl: "https://linkedin.com/in/dein-profil",
   githubUrl: "https://github.com/dein-username",
   
