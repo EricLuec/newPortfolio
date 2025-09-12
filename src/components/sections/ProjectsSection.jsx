@@ -1,8 +1,9 @@
 'use client'
 import { useState } from "react";
 import { ProjectCard } from "../ui/ProjectCard";
+import { projects } from "@/data/projects"; 
 
-export const ProjectsSection = ({ projects }) => {
+export const ProjectsSection = () => { 
   const [activeProject, setActiveProject] = useState(null);
 
   return (
