@@ -4,6 +4,7 @@ import './globals.css';
 const metadata = {
   title: 'EricLuec Portfolio',
   description: 'NextJS-Portfolio',
+    icon: '/favicon.ico',
 };
 
 export default function RootLayout({ children }) {
