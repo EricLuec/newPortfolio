@@ -1,7 +1,7 @@
 export const portfolioConfig = {
-  name: "Dein Name",
+  name: "Eric",
   title: "Software Developer",
-  subtitle: "Full Stack Engineer • Innovation Enthusiast",
+  subtitle: "Full Stack Engineer • Cybersecurity Expert",
   year: new Date().getFullYear(),
   
   yearsExperience: 5, 
@@ -12,14 +12,12 @@ export const portfolioConfig = {
   
 
   journeyText: `
-    Schreibe hier über deine Entwickler-Reise. 
-    Z.B.: Seit X Jahren entwickle ich...
+    blabla intro
   `,
   skillsText: `
-    Beschreibe deine Fähigkeiten und Technologien.
-    Z.B.: Spezialisiert auf React, Node.js, ...
+    skills here
   `,
-  
+  /*
   typeAnimationSequence: [
     'Hi, I am [Dein Name]',
     2000,
@@ -30,4 +28,5 @@ export const portfolioConfig = {
     'Hi, I create Solutions',
     2000
   ]
+    */
 };

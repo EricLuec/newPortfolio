@@ -20,7 +20,7 @@ const Portfolio = () => {
           <div className="text-center space-y-8">
             <div className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
               <TypeAnimation
-                sequence={['Hi, I am Alex', 2000, 'Hi, I am a Developer', 2000, 'Hi, I am Creative', 2000, 'Hi, I build the Future', 2000]}
+                sequence={['Hi, I am Eric', 2000, 'I am a Fullstack-Dev', 2000, 'Currently learning about cybersecurity', 2000]}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}

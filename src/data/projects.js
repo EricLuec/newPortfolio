@@ -1,8 +1,8 @@
 export const projects = [
   {
     id: 1,
-    title: "Dein erstes Projekt",
-    description: "Kurze Beschreibung was das Projekt macht",
+    title: "IT-Company",
+    description: "Fictional Management-Tool",
     tags: ["React", "Node.js", "MongoDB"],
     gradient: "from-purple-500 to-pink-500",
     link: "https://github.com/dein-username/projekt1",
@@ -11,8 +11,8 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Zweites Projekt",
-    description: "Weitere Projektbeschreibung",
+title: "Cyber_Toolbox",
+    description: "Toolbox for Cybersecurity / Networking-Tools",
     tags: ["Next.js", "TypeScript", "Tailwind"],
     gradient: "from-blue-500 to-cyan-500",
     link: "https://github.com/dein-username/projekt2"
