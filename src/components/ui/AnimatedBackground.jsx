@@ -1,6 +1,5 @@
-const AnimatedBackground = ({ mousePosition }) => (
+export const AnimatedBackground = ({ mousePosition }) => (
   <>
-    {/* Animated background gradient */}
     <div 
       className="absolute inset-0 opacity-30"
       style={{
@@ -8,7 +7,6 @@ const AnimatedBackground = ({ mousePosition }) => (
       }}
     />
     
-    {/* Animated particles */}
     <div className="absolute inset-0">
       {[...Array(50)].map((_, i) => (
         <div

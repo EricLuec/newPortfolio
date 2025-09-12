@@ -1,4 +1,10 @@
-const HeroSection = ({ name = "Alex" }) => (
+'use client'
+import { TypeAnimation } from 'react-type-animation';
+import {Code2} from '../icons/Code2';
+import {Sparkles} from '../icons/Sparkles';
+import {Zap} from '../icons/Zap';
+
+export const HeroSection = ({ name = "Alex" }) => (
   <section className="min-h-screen flex items-center justify-center px-6">
     <div className="text-center space-y-8">
       <div className="space-y-4">

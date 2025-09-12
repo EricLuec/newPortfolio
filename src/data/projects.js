@@ -6,8 +6,8 @@ export const projects = [
     tags: ["React", "Node.js", "MongoDB"],
     gradient: "from-purple-500 to-pink-500",
     link: "https://github.com/dein-username/projekt1",
-    liveDemo: "https://projekt1.vercel.app", // Optional
-    image: "/images/projects/projekt1.png" // Optional
+    liveDemo: "https://projekt1.vercel.app", 
+    image: "/images/projects/projekt1.png" 
   },
   {
     id: 2,

@@ -1,4 +1,8 @@
-const AboutSection = ({ 
+'use client'
+import { AboutCard } from "../ui/AboutCard";
+import {StatsCircle}  from "../ui/StatsCircle";
+
+export const AboutSection = ({ 
   journeyText = "Passionate software developer with 5+ years of experience crafting digital solutions. I specialize in full-stack development and love creating applications that make a real impact.",
   skillsText = "From React frontends to Node.js backends, I build scalable, modern applications. Always exploring new technologies and pushing the boundaries of what's possible.",
   yearsExperience = 5,

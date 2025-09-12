@@ -1,4 +1,4 @@
-const SocialLink = ({ href, icon: Icon, bgGradient, hoverGradient, shadowColor }) => (
+export const SocialLink = ({ href, icon: Icon, bgGradient, hoverGradient, shadowColor }) => (
   <a
     href={href}
     target="_blank"
