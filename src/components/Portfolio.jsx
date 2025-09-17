@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { useMousePosition } from '../hooks/useMousePosition';
+import { useMousePosition } from '@/hooks/useMousePosition';
 import { AnimatedBackground } from './ui/AnimatedBackground';
 import { HeroSection } from './sections/HeroSection';
 import { AboutSection } from './sections/AboutSection';
@@ -13,9 +13,7 @@ const Portfolio = () => {
   const mousePosition = useMousePosition();
 
   return (
-    <div className="relative min-h-screen overflow-hidden">      
-    
-      {is3DMode && <Portfolio3D />}
+    <div className="relative min-h-screen overflow-hidden">
       {!is3DMode && (
         <div className="relative min-h-screen bg-black text-white">
           <AnimatedBackground mousePosition={mousePosition} />
