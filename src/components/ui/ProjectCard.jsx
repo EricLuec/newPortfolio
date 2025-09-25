@@ -16,7 +16,10 @@ export const ProjectCard = ({ project, index, isActive, onMouseEnter, onMouseLea
         <h3 className="text-2xl font-semibold text-white group-hover:text-cyan-400 transition-colors">
           {project.title}
         </h3>
-        <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-cyan-400 transition-colors" />
+          <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-cyan-400 transition-colors" />
+
+          </a>
       </div>
       
       <p className="text-gray-300 mb-6 leading-relaxed">
